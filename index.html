@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Q&A System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Anonymous Q&A System</h1>
+        <div id="question-form">
+            <textarea id="question-input" placeholder="Ask your question here..."></textarea>
+            <button onclick="submitQuestion()">Submit</button>
+        </div>
+        <div id="questions-list">
+            <h2>Questions</h2>
+            <ul id="questions">
+                <!-- Questions will be added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
